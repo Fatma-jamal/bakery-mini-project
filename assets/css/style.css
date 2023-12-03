@@ -1,0 +1,768 @@
+:root {
+    --color-1: #B7A270;
+    --color-2: #FFFFFF;
+    --color-3: #BCBCBC;
+    --color-4: #101010;
+    --color-5: #AB9E7D;
+}
+*{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-image: url(/newBakery/assets/images/navBg.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 30px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-3);
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+  }
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: var(--color-2);
+  }
+  
+  .nav-links li a:hover {
+    color: var(--color-1);
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--color-4);
+    padding: 10px;
+    list-style: none;
+    margin-top: 0;
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    padding: 5px 10px;
+    color: var(--color-2);
+    text-decoration: none;
+  }
+  
+  .nav-links li:hover .dropdown-menu {
+    display: block;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/newBakery/assets/images/bread-cover.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  /* .cover-header{
+    color: var(--color-2);
+    font-size: 50px;
+  } */
+  .cover-header,.about{
+    color: var(--color-2);
+    font-size: 50px;
+  }
+.about{
+    margin-top: auto;
+  }
+  .about-img{
+    width: 430px;
+    height: 450px;
+    padding-left: 10px;
+  }
+  .aboutcover-content{
+    width: 500px;
+    padding-top: 10%;
+    margin-right: 2%;
+    margin-left: 1%;
+  }
+  .aboutImg-cover{
+    margin-right: 1%;
+    margin-left: 4%;
+  }
+  .about-space{
+    padding: 3%;
+  }
+  .about-container{
+    background-image: url(/newBakery1/assets/images/aboutCover.webp);
+  }
+  .cover-content{
+    width: 500px;
+    /* margin-right: 1%; */
+    margin-left: 4;
+
+  }
+  .cover-image{
+    margin-left: 10%;
+    margin-top: 5%;
+
+  }
+  .cover-image img{
+    width:550px;
+    height:350px;
+
+  }
+  .cover-paragraph{
+    color: var(--color-3);
+  }
+  .section-about{
+    background-image: url(/newBakery/assets/images/aboutBg.webp);
+  }
+  .cover{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .section-head{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 10%;
+    text-align: center;
+  }
+  .section-head h1{
+    color: var(--color-2);
+    margin-top: auto;
+    font-size: 40px;
+
+  }
+  .organicBread{
+    width: 540px;
+    height: 520;
+  }
+  .section-head p,.flavor{
+    color:var(--color-3);
+  }
+  .section-about h1,.details-content h1,.details-content h2{
+    color: var(--color-2);
+  }
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .content-category{
+    width: 300px;
+
+  }
+  .section-menu{
+    background-image: url(/newBakery/assets/images/ourMenubg.webp);
+  }
+  .menu-image{
+    width: 350px;
+    height: 345px;
+    border-radius: 10px;
+  }
+  .card{
+    margin: 1%;
+    width: 350px;
+    text-align: center;
+  }
+  .card h1,.testimonial-head{
+    color: var(--color-2);
+    text-align: center;
+  }
+  .description,.product-content p,.testimonial-card p, footer td{
+    color: var(--color-3);
+  }
+  .section-product{
+    background-image: url(/newBakery/assets/images/section-productbg.webp);
+  }
+  /* .section-product div{
+    width: 100%;
+  } */
+  .section-product h2,.product-header, footer th,.menuday-container h4
+  {
+    color: var(--color-2);
+  }
+  .product-header{
+    width: 450px;
+  }
+  .product-content{
+    width: 300px;
+  }
+  .product-content,.product-header{
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .product-header h1{
+    padding-top: 70%;
+    font-size: 40px;
+  }
+  .section-product-space{
+    padding-top: 5%;
+  }
+  .pc-space{
+    padding-top: 1%;
+  }
+  .testimonial-head{
+    margin-top: auto;
+    padding-top: 5%;
+  }
+  .section-testimonial,.login-container{
+    background-image: url(/newBakery/assets/images/testimonial-bg.webp);
+  }
+  .testimonial-card,.login-card{
+    width: 350px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px solid rgba(171, 158, 125, 0.4);
+    background-color: var(--color-4);
+    border-radius: 14px;
+    text-align: center;
+  }
+  .testimonial-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .testimonial-cards-space{
+    margin-top: 5%;
+    padding-bottom: 5%;
+  }
+  .testimonial-card p{
+    line-height: 1.5;
+  }
+  .testimonial-card div{
+    padding: 30px;
+  }
+  .testimonial-card h1{
+    color: var(--color-1);
+  }
+  .prof3{
+    background-color: wheat;
+  }
+  footer{
+    background-image: url(/newBakery/assets/images/footerBg.webp);
+  }
+  .footer-section div{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+  }
+  .login-card{
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .login-card div{
+    padding: 20px;
+  }
+  .loginBtn{
+    color: var(--color-1);
+    border: none;
+    border: 1px solid var(--color-5);
+    background-color: var(--color-4);
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .loginBtn:hover{
+    color: var(--color-4);
+    border: 1px solid var(--color-5);
+    background-color: var(--color-1);
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  .login-card form{
+    padding: 40px;
+    color: var(--color-2);
+  }
+  .login-container{
+    padding-top: 2%;
+    height: 100vh;
+  }
+  .input-container{
+    position:relative;
+    margin-bottom:25px;
+  }
+  .input-container label{
+    position:absolute;
+    top:0px;
+    left:0px;
+    font-size:16px;
+    color:#fff;	
+    pointer-event:none;
+    transition: all 0.5s ease-in-out;
+  }
+  .input-container input,.input-container textarea{ 
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:16px;
+    color:#fff;
+  }
+  .input-container input:focus,.input-container textarea:focus{ 
+   border:none;	
+   outline:none;
+   border-bottom:1px solid var(--color-1);	
+  }
+  .input-container input:focus ~ label,.input-container textarea:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+.googleBtn{
+  background-color: var(--color-1);
+  color: var(--color-4);
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+.signupLink{
+  color: var(--color-1);
+}
+.breadImage-cover img{
+  width: 430px;
+  height: 450px;
+}
+.breadImagecover-content{
+  width: 500px;
+}
+.menuday-img{
+  width: 110px;
+  height: 110px;
+  border-radius: 2px;
+}
+.menuday-container{
+  background-image: url(/newBakery/assets/images/section-productbg.webp);
+  margin-top: auto;
+
+}
+.menuday-container h1{
+  margin-top: auto;
+  color: var(--color-2);
+  text-align: center;
+  padding-top: 4%;
+  font-size: 30px;
+}
+.menuday-container p,.price{
+  color: var(--color-1);
+  font-weight: bold;
+}
+.menuday-card{
+  width: 500px;
+  background-color: var(--color-4);
+  margin: 2%;
+  border-style: solid;
+  border-color: rgba(188, 188, 188, 0.4);
+  border-radius: 10px;
+}
+.menuday-card:hover{
+  border-color: rgba(171, 158, 125, 0.4);
+}
+.menudaycard-content{
+  padding: 5px 2px 5px 2px; 
+  display: flex;
+  color:var(--color-2)
+}
+.menudaycard-img{
+  width: 120px;
+  margin-right: 1%;
+  padding: 15px;
+}
+.menudaycard-title{
+  width: 150px;
+  margin-right: 1%;
+  margin-left: 1%;
+  padding: 15px;
+}
+.menudaycard-icon{
+  width: 70px;
+  margin-left: 1%;
+  padding: 15px;
+  text-align: right;
+  font-size: 40px;
+  padding-top: 40%;
+}
+.bx-right-arrow-alt,.bxs-edit-alt{
+  background-color: var(--color-1);
+  color: var(--color-4);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sweetmenucover{
+  border-radius: 50%;
+}
+.details-image{
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
+.details-content,.details-img{
+  margin-left: 1%;
+  margin-right: 1%;
+  /* color: var(--color-2); */
+}
+.details-cover{
+  background-image: url(/newBakery/assets/images/ourMenubg.webp);
+  padding-top: 5%;
+  /* padding-bottom: 5%; */
+}
+.details-content{
+  width: 500px;
+}
+.details-content div{
+  padding-top: 7%;
+}
+.menu-link{
+  cursor: pointer;
+  text-decoration: none;
+}
+.price-size{
+  font-size: 20px;
+}
+.section-category{
+  padding-bottom: 5%;
+}
+.footer-logo{
+  width: 150px;
+  height: 150px;
+}
+.footer-space{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.create{
+  width: 800px;
+}
+.about-container{
+  background-image: url(/newBakery1/assets/images/aboutCover.webp);
+}
+.timeopen-cover{
+  background-image: url(/newBakery1/assets/images/testimonial-bg.webp);
+}
+.timeopen-img{
+  width: 430px;
+  height: 470px;
+}
+.form-add{
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 200px;
+}
+.timeopen-content h1,.timeopen-content h3,.quots-content h1,
+.bestingrediants-content h1,.ingredients-container h1{
+  color: var(--color-2);
+}
+.timeopen-content h1,.bestingrediants-content h1{
+  font-size: 40px;
+  color: var(--color-2);
+}
+.timeopen-content h3{
+  font-size: 25px;
+}
+.timeopen-content p,.quots-content p,.bestingrediants-content p{
+  color: var(--color-3);
+  font-size: 20px;
+}
+.timeopen-content p span{
+  color: var(--color-1);
+}
+.timeopen-content,.timeopen-image{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.quots-container{
+  background-image: url(/newBakery1/assets/images/quetos.webp);
+}
+.quots-content h1,.bestingrediants-content h1{
+  margin-top: auto;
+}
+
+.best-ingrediants{
+  background-image: url(/newBakery1/assets/images/bestingrediant-cover.webp);
+}
+.bestingrediants-content,.quots-content{
+  padding: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+.bestingrediants-content{
+  width: 700px;
+}
+
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  background-color: #212020;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  animation: fadeIn 1.5s;
+}
+
+#scrollToTopBtn:hover {
+  opacity: 0.7;
+  background-color: var(--color-1);
+}
+.ingredients-container{
+  width: 300px;
+  text-align: center;
+}
+.deletebtn-outside,.cancelbtn,.deletebtn {
+  background-color: var(--color-4);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  /* opacity: 0.9; */
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 100px;
+  border-radius: 4px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: var(--color-3);
+  color: var(--color-4);
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: var(--color-4);
+  color: var(--color-2);
+}
+.deletebtn a{
+  text-decoration: none;
+}
+.container-btn {
+  padding: 16px;
+  text-align: center;
+}
+.container-btn h3{
+  color: var(--color-4);
+}
+.deletebtn-outside{
+  border: 2px solid var(--color-1);
+  border-radius: 4px;
+  height: 50px;
+  margin-top: 12%;
+}
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  padding-top: 50px;
+  /* backdrop-filter: opacity(0.5); */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 500px; 
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footer-space table th{
+  text-align: left;
+}
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
+  @media screen and (max-width: 400px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+    .cover-header{
+      font-size: 20px;
+    }
+    .cover-content{
+      margin-left: 4%;
+    }
+    .cover-image img{
+      width:250px;
+      height:200px;
+    }
+    .cover-image,.breadImage-cover{
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+  }
+  @media (min-width: 400px) and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .nav-links li {
+      margin: 10px 0;
+    }
+    .cover-header{
+      font-size: 30px;
+    }
+    .cover-content{
+      margin-left: 4%;
+    }
+    .cover-image img{
+      width:270px;
+      height:200px;
+    }
+    .cover-image{
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 800px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .nav-links li {
+      margin: 10px 0;
+    }
+    .cover-header{
+      font-size: 30px;
+    }
+    .cover-content{
+      margin-left: 4%;
+    }
+    .cover-image img{
+      width:350px;
+      height:230px;
+    }
+    .cover-image{
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .cover-image{
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .cover-header{
+      /* font-size: 30px; */
+    }
+    .cover-content{
+      margin-left: 8%;
+    }
+    .breadImagecover-content{
+      margin-left: 4%;
+      margin-right: 10%;
+    }
+  }
